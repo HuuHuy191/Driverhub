@@ -1,0 +1,39 @@
+# Biến môi trường — TUYỆT ĐỐI không commit
+.env
+.env.local
+.env.test
+*.env
+
+# Khóa bí mật
+**/google-services.json
+**/firebase-adminsdk-*.json
+**/*.p12
+**/*.keystore
+
+# Thư viện
+node_modules/
+backend/dist/
+admin-web/dist/
+
+# Flutter
+driver-mobile/build/
+driver-mobile/.dart_tool/
+driver-mobile/.flutter-plugins*
+driver-mobile/android/local.properties
+
+# Công cụ
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+coverage/
+
+# Trang test thủ công Socket.IO (chặng Socket.IO Gateway)
+backend/test-socket.html
+
+# Temporary working files
+/tmp/
+.env.*
+!.env.example
+
